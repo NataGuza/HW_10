@@ -1,0 +1,42 @@
+    1  git config
+    2  git config --list
+    3  git clone https://github.com/NataGuza/HW_10.git
+    4  ls -la
+    5  cd HW_10/
+    6  touch text_ignore.txt
+    7  ls
+    8  ls -la
+    9  vim .gitignore
+   10  git status
+   11  git add
+   12  git add .
+   13  git commit -m "Add txt file to gitignore"
+   14  git status
+   15  ls
+   16  touch main_test.txt
+   17  git status
+   18  git add [200~
+   19  git add main_test.txt
+   20  commit main_test.txt
+   21  git commit main_test.txt
+   22  git log
+   23  git add .
+   24  [200~git commit -m "Ваш коментар"
+   25  git log
+   26  git status
+   27  git branch -a develop
+   28  git branch  develop
+   29  git checkout develop 
+   30  touch develop_test.txt
+   31  git add .
+   32  git commit -m "add file develop_test.txt"
+   33  vim develop_test.txt
+   34  git status
+   35  git add . 
+   36  git commit -m "Add just a small in file develop"
+   37  git status
+   38  git log
+   39  git checkout main
+   40  git merge develop 
+   41  git log
+   42  history > command_list.csv
